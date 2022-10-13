@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length converter</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <h2>Конвертер довжин</h2>
+<p>Введіть значення у будь-яке поле</p>
+<div>
+     <div>
+        <label>Кілометри</label>
+        <input id="inputKilometers" type="number" placeholder="Кілометри" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>km</p>
+    </div>
+
+     <div>
+        <label>Метри</label>
+        <input id="inputMeters" type="number" placeholder="Метри" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>m</p>
+    </div>
+
+    <div>
+        <label>Сантиметри</label>
+        <input id="inputcm" type="number" placeholder="Сантиметри" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>cm</p>
+    </div>
+    <div>
+        <label>Міліметри</label>
+        <input id="inputmm" type="number" placeholder="Міліметри" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>mm</p>
+    </div>
+
+    <div>
+        <label>Ярди</label>
+        <input id="inputyd" type="number" placeholder="Ярди" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>yd</p>
+    </div>    
+    
+    <div>
+        <label>Фути</label>
+        <input id="inputFeet" type="number" placeholder="Фути" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>ft</p>
+    </div>
+
+     <div>
+        <label>Дюйми</label>
+        <input id="inputInches" type="number" placeholder="Дюйми" oninput="lengthConverter(this.id,this.value)" 
+        onchange="lengthConverter(this.id,this.value)">
+        <p>in</p>
+    </div>
+
+</div>
+
+
+<script src="./script/script.js"></script>
+</body>
+</html>
